@@ -7,7 +7,7 @@ import * as io from 'socket.io-client';
 })
 export class Socket1Service {
 
-  public baseurl = "http://todolist-api.mohitnagpure.com/"
+  public baseurl = "http://apidoc.project.siddharth.ga/"
   public socket;
 
   constructor() {
