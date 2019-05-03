@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AppService {
 
-  public baseUrl = 'http://localhost:3000/api/v1.0'
+  public baseUrl = 'http://localhost:3000/api/v1.0';
   public deleteid: String;
   public deletetask: String;
 
