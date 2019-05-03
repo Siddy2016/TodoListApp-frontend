@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class SocketService {
 
-  public baseUrl = "http://todolist-api.mohitnagpure.com/";
+  public baseUrl = "http://apidoc.project.siddharth.ga/";
   //Handshake
   public socket = io(this.baseUrl)
 
